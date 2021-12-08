@@ -1,0 +1,2 @@
+# Laboratorio
+Laboratorio de clinica, tiene 2 rangos, MEDICO y ENFERMERO, cada uno con sus privilegios dentro de la plataforma, El medico puede: solicitar consultas, realizar diagnosticos y revisar los pacientes atendidos. El enfermero, por otra parte, solo puede Solicitar consultas y Ver los pacientes atendidos. Una vez se realiza un diagnóstico, el mismo, es enviado al paciente en pdf a través de su correo electrónico.
