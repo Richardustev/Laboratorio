@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar .navbar-nav a{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+main{
+    width: 70%;
+    margin: auto; 
+    padding: 20px;
+}
+
+.main-form 
+input[type=text],
+input[type=email],
+input[type=datetime-local]{
+    width: 70%;
+    padding: 3px;
+}
+
+.main-title h2{
+    text-align: center;
+    font-weight: bold;
+}
+
+.form-grid-wrapper{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+@media only screen and (max-width: 760px) { 
+    .form-grid-wrapper{
+        display: block;
+    }
+}
